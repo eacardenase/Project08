@@ -56,15 +56,39 @@
 		20E7AECE2993EB91008403F2 /* Project08 */ = {
 			isa = PBXGroup;
 			children = (
+				20E7AEE32993ED99008403F2 /* Models */,
+				20E7AEE52993EDAE008403F2 /* Controllers */,
 				20E7AECF2993EB91008403F2 /* AppDelegate.swift */,
 				20E7AED12993EB91008403F2 /* SceneDelegate.swift */,
-				20E7AED32993EB91008403F2 /* ViewController.swift */,
 				20E7AED52993EB91008403F2 /* Main.storyboard */,
 				20E7AED82993EB92008403F2 /* Assets.xcassets */,
 				20E7AEDA2993EB92008403F2 /* LaunchScreen.storyboard */,
 				20E7AEDD2993EB92008403F2 /* Info.plist */,
 			);
 			path = Project08;
+			sourceTree = "<group>";
+		};
+		20E7AEE32993ED99008403F2 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				20E7AEE42993EDA7008403F2 /* Views */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		20E7AEE42993EDA7008403F2 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		20E7AEE52993EDAE008403F2 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				20E7AED32993EB91008403F2 /* ViewController.swift */,
+			);
+			path = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -302,9 +326,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.eacardenase.Project08;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Debug;
 		};
@@ -330,9 +357,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.eacardenase.Project08;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Release;
 		};
