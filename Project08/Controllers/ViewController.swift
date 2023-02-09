@@ -163,6 +163,11 @@ class ViewController: UIViewController {
                 
                 present(ac, animated: true)
             }
+        } else {
+            let ac = UIAlertController(title: "That's wrong!", message: "There's not such word \"\(answerText)\" in our game!", preferredStyle: .alert)
+            ac.addAction(UIAlertAction(title: "Try again", style: .default))
+            
+            present(ac, animated: true)
         }
     }
     
